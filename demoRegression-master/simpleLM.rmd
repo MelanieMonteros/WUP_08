@@ -52,6 +52,10 @@ summary.lm(Ourchest)
 ```
 The order from worst to best would be weight, neck, chest. 
 
+Weight: RSE: 5.342 ARs:0.7423
+Neck: RSE: 5.376 ARs: 0.7476
+Chest: RSE: 4.939 ARS: 0.7869
+
 ```{r}
 ourheadwth <- lm(LENGTH~HEADWTH,data=bears)
 plot(LENGTH~HEADWTH,data=bears)
