@@ -43,6 +43,15 @@ summary.lm(Ourweight)
 based on what we have seen the neck is better then the weight 
 
 
+```{r}
+Ourchest <- lm(LENGTH~CHEST,data=bears)
+plot(LENGTH~CHEST,data=bears)
+abline(Ourchest)
+summary.lm(Ourchest)
+```
+The order from worst to best would be weight, neck, chest. 
+
+
 
 
 
