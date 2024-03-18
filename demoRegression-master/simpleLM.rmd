@@ -41,7 +41,8 @@ abline(Ourweight)
 summary.lm(Ourweight)
 ```
 based on what we have seen the neck is better then the weight 
-
+Weight: RSE: 5.432, ARs: 0.7423
+Neck: RSE: 5.376 Ars: 0.7476
 
 ```{r}
 Ourchest <- lm(LENGTH~CHEST,data=bears)
@@ -51,8 +52,13 @@ summary.lm(Ourchest)
 ```
 The order from worst to best would be weight, neck, chest. 
 
+```{r}
+ourheadwth <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(ourheadwth)
+summary.lm(ourheadwth)
+```
 
-
-
+the order from worst to best be HEAFWTH, WEIGHT,NECK and finally CHEST. 
 
 
