@@ -69,3 +69,26 @@ Weight: RSE: 5.342 ARs:0.7423
 Neck: RSE: 5.376 ARs: 0.7476
 Chest: RSE: 4.939 ARS: 0.7869
 
+
+```{r}
+Ourheadlen <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(Ourheadlen)
+summary.lm(Ourheadlen)
+```
+
+the worse to best starting with Headwth, Weight, Neck, Chest and finally Headlen
+Headwth RSE: 7.32 ARs: 0.5321
+Weight: RSE: 5.342 ARs:0.7423
+Neck: RSE: 5.376 ARs: 0.7476
+Chest: RSE: 4.939 ARS: 0.7869
+Headlen: RSE: 4.235 ARs: 0.8434
+
+
+
+
+
+
+
+
+
