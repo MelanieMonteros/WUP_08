@@ -63,6 +63,9 @@ abline(ourheadwth)
 summary.lm(ourheadwth)
 ```
 
-the order from worst to best be HEAFWTH, WEIGHT,NECK and finally CHEST. 
-
+the order from worst to best be HEAFWTH, WEIGHT,NECK and finally CHEST.
+Headwth RSE: 7.32 ARs: 0.5321
+Weight: RSE: 5.342 ARs:0.7423
+Neck: RSE: 5.376 ARs: 0.7476
+Chest: RSE: 4.939 ARS: 0.7869
 
