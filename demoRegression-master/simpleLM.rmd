@@ -42,8 +42,9 @@ summary.lm(Ourweight)
 ```
 based on what we have seen the neck is better then the weight 
 Weight: RSE: 5.432, ARs: 0.7423
+  
 Neck: RSE: 5.376 Ars: 0.7476
-
+  
 ```{r}
 Ourchest <- lm(LENGTH~CHEST,data=bears)
 plot(LENGTH~CHEST,data=bears)
@@ -51,9 +52,10 @@ abline(Ourchest)
 summary.lm(Ourchest)
 ```
 The order from worst to best would be weight, neck, chest. 
-
 Weight: RSE: 5.342 ARs:0.7423
+  
 Neck: RSE: 5.376 ARs: 0.7476
+  
 Chest: RSE: 4.939 ARS: 0.7869
 
 ```{r}
@@ -65,10 +67,13 @@ summary.lm(ourheadwth)
 
 the order from worst to best be HEAFWTH, WEIGHT,NECK and finally CHEST.
 Headwth RSE: 7.32 ARs: 0.5321
+  
 Weight: RSE: 5.342 ARs:0.7423
+  
 Neck: RSE: 5.376 ARs: 0.7476
+  
 Chest: RSE: 4.939 ARS: 0.7869
-
+  
 
 ```{r}
 Ourheadlen <- lm(LENGTH~HEADLEN,data=bears)
@@ -79,9 +84,13 @@ summary.lm(Ourheadlen)
 
 the worse to best starting with Headwth, Weight, Neck, Chest and finally Headlen
 Headwth RSE: 7.32 ARs: 0.5321
+  
 Weight: RSE: 5.342 ARs:0.7423
+  
 Neck: RSE: 5.376 ARs: 0.7476
+  
 Chest: RSE: 4.939 ARS: 0.7869
+  
 Headlen: RSE: 4.235 ARs: 0.8434
 
 ```{r}
@@ -91,12 +100,17 @@ abline(Ourage)
 summary.lm(Ourage)
 ```
 
-The worst to best starting with Age, Headwth, Weight, Neck, Chest and finally Headlen
+The worst to best starting with Age, Headwth, Weight, Neck, Chest and finally Headlen. 
 Age: RSE:7.511 ARs:0.5073
+  
 Headwth RSE: 7.32 ARs: 0.5321
+  
 Weight: RSE: 5.342 ARs:0.7423
+  
 Neck: RSE: 5.376 ARs: 0.7476
+  
 Chest: RSE: 4.939 ARS: 0.7869
+  
 Headlen: RSE: 4.235 ARs: 0.8434
 
 
